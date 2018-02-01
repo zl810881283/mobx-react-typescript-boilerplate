@@ -4,7 +4,12 @@
     "removeComments": true,
     "experimentalDecorators": true,
     "jsx": "react",
-    "outDir": "dist"
+    "outDir": "dist",
+    "lib":[
+      "es5",
+      "es2017",
+      "dom"
+    ]
   },
   "exclude": [
     "node_modules",
